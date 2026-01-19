@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+</head>
+
+<body>
+    <main>
+        <form action="#">
+            <h1>Регистрация</h1>
+            <div>
+                <span>Уже есть аккаунт?</span>
+                <a href="#">Войти</a>
+            </div>
+            <div>
+                <label for="user_name">Имя</label>
+                <input type="text" name="user_name" id="user_name" placeholder="..." minlength="2" required>
+
+                <label for="user_secondname">Фамилия</label>
+                <input type="text" name="user_secondname" id="user_secondname" placeholder="..." minlength="2" required>
+            </div>
+            <div>
+                <label for="user_email">E-mail</label>
+                <input type="email" name="user_email" id="user_email" placeholder="qwerty@example.com" required>
+            </div>
+            <div>
+                <label for="user_login">Логин</label>
+                <input type="text" name="user_login" id="user_login" minlength="4" maxlength="14" required>
+            </div>
+            <div>
+                <label for="user_password">Пароль</label>
+                <input type="password" name="user_password" id="user_password" required>
+            </div>
+            <button type="submit">Зарегистрироваться</button>
+            <div>
+                <input type="checkbox" name="user_oferta" id="user_oferta" required>
+                <label for="user_oferta">Я прочитал и принимаю <a href="#">Условия использования</a> </label>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
