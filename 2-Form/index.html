@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <main>
         <form action="#">
             <h1>Регистрация</h1>
-            <div>
+            <div class="have_an_account">
                 <span>Уже есть аккаунт?</span>
                 <a href="#">Войти</a>
+            </div>
+            <div>
+                <label for="user_placework">Место работы</label>
+                <input type="text" name="user_placework" id="user_placework" required>
             </div>
             <div>
                 <label for="user_name">Имя</label>
@@ -37,7 +42,8 @@
             <button type="submit">Зарегистрироваться</button>
             <div>
                 <input type="checkbox" name="user_oferta" id="user_oferta" required>
-                <label for="user_oferta">Я прочитал и принимаю <a href="#">Условия использования</a> </label>
+                <label for="user_oferta" class="oferta">Я прочитал и принимаю <a href="#">Условия использования</a>
+                </label>
             </div>
         </form>
     </main>

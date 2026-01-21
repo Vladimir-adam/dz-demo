@@ -1,0 +1,32 @@
+* {
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    color: #999999;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+}
+
+.have_an_account {
+    font-size: 18px;
+}
+
+.oferta {
+    font-size: 14px;
+    color: #666666;
+}
+
+.bodyLink {
+    color: #4262FF;
+}
